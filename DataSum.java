@@ -13,11 +13,7 @@ class DataSum{
           sum = sum+num;
       }
       System.out.println("Sum of array elements is:"+sum);
-   }
-}
-}
-
-      Scanner scanner = new Scanner(System.in);
+    }
 double[ ] exampleArray = {1,5,6,5,4,1};
 
           double maximum = examplesArray[0];

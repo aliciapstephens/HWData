@@ -3,11 +3,12 @@ import java.lang.Math;
 public class Power { 
   
     // Function to calculate N raised to the power P 
-    static double power(int size =4, int power =2) 
+    static int number = 4, p = 2;
     { 
         //return Math.pow(N, P); 
     } 
-  
+    public static void main(String[] args)
+    {
     int size = 4;
         int power = 2;		
         int myArray []; 
@@ -17,3 +18,4 @@ public class Power {
             System.out.println(Math.pow(i,j)); 
     } 
 } 
+}
